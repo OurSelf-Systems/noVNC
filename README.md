@@ -1,3 +1,5 @@
+> :warning: This is an experimental fork for minor changes. Please use upstream and not this fork.
+
 ## noVNC: HTML VNC Client Library and Application
 
 [![Test Status](https://github.com/novnc/noVNC/workflows/Test/badge.svg)](https://github.com/novnc/noVNC/actions?query=workflow%3ATest)
