@@ -179,7 +179,7 @@ const UI = {
         UI.initSetting('compression', 2);
         UI.initSetting('shared', true);
         UI.initSetting('view_only', false);
-        UI.initSetting('show_dot', false);
+        UI.initSetting('show_dot', true);  // Default to true for OurSelf
         UI.initSetting('path', 'websockify');
         UI.initSetting('repeaterID', '');
         UI.initSetting('reconnect', false);
