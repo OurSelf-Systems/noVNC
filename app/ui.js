@@ -174,7 +174,7 @@ const UI = {
         UI.initSetting('port', port);
         UI.initSetting('encrypt', (window.location.protocol === "https:"));
         UI.initSetting('view_clip', false);
-        UI.initSetting('resize', 'off');
+        UI.initSetting('resize', 'remote'); // For OurSelf
         UI.initSetting('quality', 6);
         UI.initSetting('compression', 2);
         UI.initSetting('shared', true);
@@ -182,8 +182,8 @@ const UI = {
         UI.initSetting('show_dot', true);  // Default to true for OurSelf
         UI.initSetting('path', window.location.pathname.substring(1) + '/../websockify'); // So we can host more than one per IP
         UI.initSetting('repeaterID', '');
-        UI.initSetting('reconnect', false);
-        UI.initSetting('reconnect_delay', 5000);
+        UI.initSetting('reconnect', true); // For OurSelf
+        UI.initSetting('reconnect_delay', 10); // For OutSelf
 
         UI.setupSettingLabels();
     },
